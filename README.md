@@ -1,5 +1,5 @@
 # Đề tài: QUẢN LÝ BÁN SÁCH 
-Môn: PHÁT TRIỂN PHẦN MỀM HƯỚNG DỊCH VỤ  
+### Môn: PHÁT TRIỂN PHẦN MỀM HƯỚNG DỊCH VỤ  
 # Yêu cầu
 Cần có một phần mềm chuyên dụng trong việc quản lí bán sách cho phép:
 -	Sử dụng được trên ít nhất 2 nền tảng.
@@ -13,3 +13,4 @@ Khi người dùng gửi request yêu cầu -->  Controller tiếp nhận --> T�
 Business Logic Layer muốn thực hiện truy vấn vào CSDL phải thông qua @Repository
 - Data Access Layer (Repository): 
 Nơi lưu trữ và trích xuất dữ liệu từ hệ quản trị cơ sở dữ liệu. Nơi thực hiện giao tiếp với CSDL, xử lý truy vấn và trả về kiểu dữ liệu service mong muốn. Chỉ thao tác trên Entity, vì đó là đối tượng thích hợp, có thể mapping vào DB.
+# 
