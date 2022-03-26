@@ -14,3 +14,11 @@ Business Logic Layer muốn thực hiện truy vấn vào CSDL phải thông qua
 - **Data Access Layer (Repository):**
 Nơi lưu trữ và trích xuất dữ liệu từ hệ quản trị cơ sở dữ liệu. Nơi thực hiện giao tiếp với CSDL, xử lý truy vấn và trả về kiểu dữ liệu service mong muốn. Chỉ thao tác trên Entity, vì đó là đối tượng thích hợp, có thể mapping vào DB.  
 #
+| Số lượng người tham gia | 3 | 
+|--------------|-------|
+| Vị trí làm việc | Build API + Tester |
+| Vai trò trong dự án | - Xây dựng CSDL.
+- Xây dựng API with Spring Boot + Test API với POSTMAN.
+- Viết test case từ SRS (Software Requirement Specification) và test
+- Quản lý lỗi bằng excel
+- Tạo báo cáo | 
