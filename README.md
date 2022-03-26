@@ -12,7 +12,10 @@ Khi người dùng gửi request yêu cầu -->  Controller tiếp nhận --> T�
 - **Business Logic Layer (Service):** Khi các handler sau khi hận được request sẽ chuyển các yêu cầu xuống cho lớp Business Logic: Nơi kiểm tra các ràng buộc, validation, tính ràng buộc, hợp lệ của thông tin. Tính toán xử lí các yêu cầu và lựa chọn kết quả để trả về cho Controller. Nhận vào DTO (từ controller gửi qua) hoặc Domain model (từ các service nội bộ khác). Dữ liệu được xử lý (có thể tương tác với DB), cuối cùng được Service trả về Web layer dưới dạng DTO.  
 Business Logic Layer muốn thực hiện truy vấn vào CSDL phải thông qua @Repository  
 - **Data Access Layer (Repository):**
-Nơi lưu trữ và trích xuất dữ liệu từ hệ quản trị cơ sở dữ liệu. Nơi thực hiện giao tiếp với CSDL, xử lý truy vấn và trả về kiểu dữ liệu service mong muốn. Chỉ thao tác trên Entity, vì đó là đối tượng thích hợp, có thể mapping vào DB.  
+Nơi lưu trữ và trích xuất dữ liệu từ hệ quản trị cơ sở dữ liệu. Nơi thực hiện giao tiếp với CSDL, xử lý truy vấn và trả về kiểu dữ liệu service mong muốn. Chỉ thao tác trên Entity, vì đó là đối tượng thích hợp, có thể mapping vào DB. 
+### Tóm tắt
+| Mô tả dự án | Xây dựng phần mềm quản lí bán sách hoạt động đa nền tảng thông qua Web Service gồm các chức năng: Quản lý tài khoản, quên mật khẩu, quản lý sản phẩm, đặt hàng, quản lý đơn hàng,... |
+|--------------|-------|
 | Số lượng người tham gia | 3 | 
 | Vị trí làm việc | Build API + Tester |
 | Vai trò trong dự án | - Xây dựng CSDL - Xây dựng API with Spring Boot + Test API với POSTMAN. - Viết test case từ SRS (Software Requirement Specification) và test - Quản lý lỗi bằng excel - Tạo báo cáo | 
