@@ -18,4 +18,5 @@ Nơi lưu trữ và trích xuất dữ liệu từ hệ quản trị cơ sở d�
 |--------------|-------|
 | Số lượng người tham gia | 3 | 
 | Vị trí làm việc | Build API + Tester |
-| Vai trò trong dự án | - Xây dựng CSDL - Xây dựng API with Spring Boot + Test API với POSTMAN. - Viết test case từ SRS (Software Requirement Specification) và test - Quản lý lỗi bằng excel - Tạo báo cáo | 
+| Vai trò trong dự án | - Xây dựng CSDL |
+- Xây dựng API with Spring Boot + Test API với POSTMAN.| - Viết test case từ SRS (Software Requirement Specification) và test| - Quản lý lỗi bằng excel - Tạo báo cáo | 
